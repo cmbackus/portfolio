@@ -1,0 +1,70 @@
+#work {
+    background-color: $light;
+    margin-top: 20%;
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+        color: $cb-blue;
+        width: 100%;
+        margin: auto;
+    }
+    .galleryholder {
+        h2 {
+            text-align: center;
+            width: 100%;
+            margin: auto;
+            padding-top: 20%;
+        }
+        min-height:100%;
+    }
+    #facet {
+        background-image: url("../assets/image/facet.jpg");
+    }
+    #playground {
+        background-image: url("../assets/image/playground.png");
+    }
+}
+
+#header {
+    position: relative;
+    background-color: rgba(255, 255, 255, .9);
+    background-image: url("../assets/image/desktop.jpeg");
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.rw-bg {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e7e7e7;
+    background-image: url("../assets/image/desktop2.jpg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#holder {
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    h1 {
+        color: white;
+        @include centerer;
+        margin: auto;
+        font-size: 90px;
+        max-width: 80%;
+        text-align: center;
+        font-family: chewy, sans-serif;
+    }
+}
