@@ -1,6 +1,9 @@
 #work {
     background-color: $light;
     margin-top: 100%;
+    &.other {
+        margin-top: 0px;
+    }
     h1 {
         text-align: center;
         padding-top: 30px;
@@ -9,33 +12,54 @@
         margin: auto;
     }
     .galleryholder {
-        h2 {
-            text-align: center;
-            width: 100%;
-            margin: auto;
-            //padding-top: 20px;
-        }
-        .gitem:hover {
-            background-color: transparent;
-        }
-        .gitem {
-            margin-top: 20px;
-            height: 200px;
-            overflow: hidden;
+        .item {
+            position: relative;
+            &.selected {
+                img {
+                    opacity: .8;
+                }
+                h2 {
+                    color: #fff;
+                }
+            }
             img {
-                display: none;
+                position: fixed;
+                opacity: .1;
                 position: absolute;
                 bottom: 0;
                 left: 0;
-            }
-        }
-        .gitem:hover {
-            img {
-                display: block;
+                z-index: 0;
             }
             h2 {
-                color: $light;
-                z-index: 0;
+                position: relative;
+                text-align: center;
+                width: 100%;
+                margin: auto;
+                z-index: 1;
+                font-size: 50px;
+                //padding-top: 20px;
+            }
+            margin-top: 20px;
+            height: 200px;
+            overflow: hidden;
+        }
+        .item:hover {
+            img {
+                opacity: .8;
+                -webkit-transition: all .5s ease-in;
+                -moz-transition: all .5s ease-in;
+                -ms-transition: all .5s ease-in;
+                -o-transition: all .5s ease-in;
+                transition: all .5s ease-in;
+            }
+            h2 {
+                color: #ffffff;
+                font-size: 55px;
+                -webkit-transition: all .1s ease-in;
+                -moz-transition: all .1s ease-in;
+                -ms-transition: all .1s ease-in;
+                -o-transition: all .1s ease-in;
+                transition: all .1s ease-in;
             }
             // background-color: purple;
         }
