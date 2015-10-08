@@ -1,4 +1,4 @@
-/* line 1, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 1, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 * {
   font-family: Myriad-pro, sans-serif; }
 
@@ -9,7 +9,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 15, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 15, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -22,19 +22,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 29, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 29, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .icon-devicon:before {
   content: "\e600"; }
 
-/* line 32, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 32, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .icon-bussicon:before {
   content: "\e601"; }
 
-/* line 35, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 35, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .icon-designicon:before {
   content: "\e602"; }
 
-/* line 38, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 38, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .general-ui-icon {
   display: inline;
   position: relative;

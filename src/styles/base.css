@@ -1,4 +1,4 @@
-/* line 1, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 1, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 * {
   font-family: Myriad-pro, sans-serif; }
 
@@ -9,7 +9,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 15, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 15, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -22,19 +22,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 29, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 29, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .icon-devicon:before {
   content: "\e600"; }
 
-/* line 32, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 32, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .icon-bussicon:before {
   content: "\e601"; }
 
-/* line 35, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 35, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .icon-designicon:before {
   content: "\e602"; }
 
-/* line 38, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/_fonts.scss */
+/* line 38, C:/Users/Charlie/Documents/portfolio/src/styles/_fonts.scss */
 .general-ui-icon {
   display: inline;
   position: relative;
@@ -46,7 +46,7 @@
   cursor: pointer;
   transition: 0.3s linear all; }
 
-/* line 1, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_nav.scss */
+/* line 1, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_nav.scss */
 header {
   z-index: 1;
   padding-left: 30px;
@@ -57,64 +57,73 @@ header {
   left: 0;
   transition: height 500ms, background 500ms; }
 
-/* line 13, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_nav.scss */
+/* line 13, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_nav.scss */
 header nav {
   padding-right: 60px;
   padding-top: 5px; }
-  /* line 16, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_nav.scss */
+  /* line 16, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_nav.scss */
   header nav li {
     background-color: rgba(0, 0, 0, 0.3); }
 
-/* line 21, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_nav.scss */
+/* line 21, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_nav.scss */
 header img {
   padding-top: 10px; }
 
-/* line 25, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_nav.scss */
+/* line 25, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_nav.scss */
 header.tiny {
   height: 50px; }
 
-/* line 30, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_nav.scss */
+/* line 30, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_nav.scss */
 header.tiny img {
   height: 50px;
   padding-top: 5px; }
 
-/* line 35, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_nav.scss */
+/* line 35, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_nav.scss */
 a {
   color: white;
   text-decoration: none; }
 
-/* line 1, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
+/* line 1, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
 #work {
   background-color: #e6e6e6;
   margin-top: 20%; }
-  /* line 4, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
+  /* line 4, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
   #work h1 {
     text-align: center;
     padding-top: 30px;
     color: #0093D2;
     width: 100%;
     margin: auto; }
-  /* line 11, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
-  #work .galleryholder {
-    min-height: 100%; }
-    /* line 12, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
-    #work .galleryholder h2 {
-      text-align: center;
-      width: 100%;
-      margin: auto;
-      padding-top: 20%; }
-  /* line 20, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
-  #work #facet {
-    background-image: url("../assets/image/facet.jpg"); }
-  /* line 23, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
-  #work #playground {
-    background-image: url("../assets/image/playground.png"); }
+  /* line 12, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
+  #work .galleryholder h2 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20% 0; }
+  /* line 18, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
+  #work .galleryholder .gitem:hover {
+    background-color: transparent; }
+  /* line 21, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
+  #work .galleryholder .gitem {
+    margin-top: 20px;
+    overflow: hidden; }
+    /* line 24, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
+    #work .galleryholder .gitem img {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+  /* line 32, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
+  #work .galleryholder .gitem:hover img {
+    display: block; }
+  /* line 35, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
+  #work .galleryholder .gitem:hover h2 {
+    color: #e6e6e6;
+    z-index: 0; }
 
-/* line 28, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
+/* line 47, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
 #header {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.9);
-  background-image: url("../assets/image/desktop.jpeg");
   height: 100%;
   width: 100%;
   -webkit-background-size: cover;
@@ -122,7 +131,7 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 40, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
+/* line 59, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
 .rw-bg {
   z-index: -1;
   position: fixed;
@@ -130,7 +139,6 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #e7e7e7;
   background-image: url("../assets/image/desktop2.jpg");
   height: 100%;
   -webkit-background-size: cover;
@@ -138,13 +146,14 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 56, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
+/* line 75, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
 #holder {
   background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
   width: 100%;
   height: 100%;
   position: relative; }
-  /* line 61, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_index.scss */
+  /* line 81, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_index.scss */
   #holder h1 {
     color: white;
     position: absolute;
@@ -162,20 +171,20 @@ a {
     text-align: center;
     font-family: chewy, sans-serif; }
 
-/* line 1, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 1, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #galleryset {
   margin: auto;
   max-width: 1070px;
   margin-bottom: 50px;
   margin-top: 150px; }
 
-/* line 8, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 8, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #galleryspace {
   list-style: none;
   clear: left;
   overflow: hidden; }
 
-/* line 14, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 14, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #galleryspace li {
   background-color: #C9C7C9;
   margin: 1px;
@@ -183,18 +192,18 @@ a {
   border-radius: 1px;
   float: left; }
 
-/* line 22, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 22, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 li img {
   display: block;
   padding: 0px;
   margin: 0 auto; }
 
-/* line 29, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 29, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #galleryspace li:hover,
 #galleryspace li:focus {
   background-color: #0093D2; }
 
-/* line 33, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 33, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .info_bar {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
@@ -202,7 +211,7 @@ li img {
   clear: none;
   transition: opacity 0.2s; }
 
-/* line 41, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 41, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .info_bar h2 {
   padding-left: 20px;
   padding-top: 20px;
@@ -210,7 +219,7 @@ li img {
   font-size: 30pt;
   transition: opacity 2s ease-in; }
 
-/* line 49, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 49, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #footer {
   clear: both;
   margin: auto;
@@ -218,7 +227,7 @@ li img {
   text-align: center; }
 
 /*project pages*/
-/* line 59, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 59, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .featured {
   margin: auto;
   width: 100%;
@@ -226,14 +235,14 @@ li img {
   margin-top: 10px;
   margin-bottom: 50px; }
 
-/* line 67, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 67, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #featuredTitle {
   padding-left: 100px;
   width: 100px;
   float: left;
   padding-top: 0px; }
 
-/* line 74, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 74, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #featuredLink a {
   padding-left: 250px;
   min-width: 100px;
@@ -243,7 +252,7 @@ li img {
   color: blue;
   font-style: Arial, "sans-serif"; }
 
-/* line 84, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 84, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #featuredLink {
   padding-left: 250px;
   width: 100px;
@@ -252,7 +261,7 @@ li img {
   font-style: Arial, "sans-serif";
   clear: left; }
 
-/* line 93, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 93, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #featuredDesc {
   padding-left: 250px;
   padding-top: 7px;
@@ -260,7 +269,7 @@ li img {
   margin-left: 30px;
   min-width: 100px; }
 
-/* line 101, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 101, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #myCarousel {
   padding-top: 0px;
   width: 100%;
@@ -275,45 +284,45 @@ li img {
   */ }
 
 /*about specific*/
-/* line 118, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 118, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #personal {
   margin: 50px;
   float: left;
   margin-bottom: 20px;
   border-radius: 50%; }
 
-/* line 125, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 125, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #about {
   padding-top: 30px;
   float: right; }
 
-/* line 130, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 130, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .contact a {
   color: blue; }
 
-/* line 134, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 134, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .contact p a {
   color: blue; }
 
-/* line 138, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 138, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 h2 {
   font-family: "Montserrat", "sans-serif"; }
 
-/* line 142, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 142, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #about {
   max-width: 700px; }
 
-/* line 146, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 146, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #about p {
   max-width: 700px; }
 
-/* line 150, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 150, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #links {
   float: left;
   max-width: 400px;
   margin: auto; }
 
-/* line 156, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 156, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #links ul li {
   list-style: none;
   width: 60px;
@@ -328,17 +337,17 @@ h2 {
   font-style: bold;
   margin-bottom: 100px; }
 
-/* line 171, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 171, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #links ul li a {
   padding-top: 20px;
   display: block; }
 
-/* line 177, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 177, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #links li:hover,
 #links li:focus {
   background-color: #0093D2; }
 
-/* line 181, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 181, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .contact {
   clear: left;
   margin: 50px;
@@ -348,7 +357,7 @@ h2 {
   padding-left: 370px;
   margin-top: 20px; }
 
-/* line 191, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 191, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #AboutSection {
   clear: both;
   background-color: #C9C7C9;
@@ -357,46 +366,46 @@ h2 {
   margin-top: 60px;
   height: 570px; }
 
-/* line 200, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 200, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 #AboutData {
   max-width: 1100px;
   margin: auto; }
 
-/* line 205, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 205, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .cimg {
   width: 100%;
   overflow: crop; }
 
-/* line 210, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_playground.scss */
+/* line 210, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_playground.scss */
 .block {
   margin-left: -20px;
   margin-right: -20px; }
 
 /*nav styles*/
-/* line 1, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_facet.scss */
+/* line 1, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_facet.scss */
 .description {
   background-color: #ededed;
   padding: 5% 10%; }
 
-/* line 6, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_facet.scss */
+/* line 6, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_facet.scss */
 .outward {
   min-height: 300px;
   background-color: #333;
   width: 100%;
   padding: 0; }
 
-/* line 13, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_facet.scss */
+/* line 13, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_facet.scss */
 .outward .inner {
   margin: auto;
   width: 80%;
   height: auto;
   text-align: center; }
 
-/* line 20, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_facet.scss */
+/* line 20, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_facet.scss */
 .outward .inner div {
   padding: 10px; }
 
-/* line 24, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/sections/_facet.scss */
+/* line 24, C:/Users/Charlie/Documents/portfolio/src/styles/sections/_facet.scss */
 .outward .inner div img {
   width: 50%;
   margin: auto;
@@ -404,18 +413,18 @@ h2 {
 
 /*nav styles*/
 /* line 5, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 8, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 8, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 * {
   font-family: 'myriad pro', sans-serif, serif;
   color: #333; }
 
 /* line 10, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 14, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 14, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 h1 {
   margin-top: 60px; }
 
 /* line 14, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 19, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 19, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 p {
   font-family: sans-serif;
   font-size: 1.25em;
@@ -423,20 +432,20 @@ p {
 
 /*# sourceMappingURL=main.css.map */
 /* line 21, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 27, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 27, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 #introCarousel {
   width: 100%;
   height: 500px; }
 
 /* line 26, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 33, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 33, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 #introCarousel .item {
   width: 50px;
   height: 400px;
   background-color: aqua; }
 
 /* line 32, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 40, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 40, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 header {
   width: 100%;
   height: 60px;
@@ -445,27 +454,27 @@ header {
   left: 0; }
 
 /* line 41, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 49, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 49, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 header img {
   height: 50px;
   padding: 10px 30px; }
 
 /* line 46, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 55, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 55, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 header .navigation {
   position: fixed;
   top: 0;
   right: 0; }
 
 /* line 52, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 62, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 62, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 header li {
   display: inline-block;
   float: left;
   padding: 10px; }
 
 /* line 58, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 69, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 69, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 header li a {
   text-decoration: none;
   color: #ffffff;
@@ -473,30 +482,30 @@ header li a {
   font-size: 12pt; }
 
 /* line 65, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 77, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 77, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 header li a:hover {
   color: #0093D2; }
 
 /* line 69, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 82, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 82, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 body {
   margin: 0px; }
 
 /* line 73, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 87, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 87, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 .media {
   margin: auto;
   width: 100%; }
 
 /* line 78, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 93, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 93, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 .media video {
   width: 100%; }
 
 /* line 82, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
-/* line 98, C:/Users/Charlie/Documents/portfolioDynamic/src/styles/base.scss */
+/* line 98, C:/Users/Charlie/Documents/portfolio/src/styles/base.scss */
 section {
   width: 100%;
-  min-height: 400px; }
+  overflow: hidden; }
 
 /*# sourceMappingURL=base.css.map */
