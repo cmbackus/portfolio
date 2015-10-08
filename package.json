@@ -1,8 +1,8 @@
 {
-  "name": "sito-site",
+  "name": "portfolio-site",
   "version": "0.0.1",
-  "description": "enrollment application for Tiger Center",
-  "author": "Student IT Office",
+  "description": "portfolio website",
+  "author": "Charlie Backus",
   "license": "ISC",
   "dependencies": {
     "assemble": "~0.4.0",
