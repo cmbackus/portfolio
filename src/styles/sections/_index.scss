@@ -3,6 +3,10 @@
     margin-top: 100%;
     &.other {
         margin-top: 0px;
+        background-color: $dark;
+        h2 {
+            color: $light
+        }
     }
     h1 {
         text-align: center;
@@ -24,7 +28,7 @@
             }
             img {
                 position: fixed;
-                opacity: .1;
+                opacity: .3;
                 position: absolute;
                 bottom: 0;
                 left: 0;

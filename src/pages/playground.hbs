@@ -1,10 +1,10 @@
 <div class="featured">
 
-    <div id="myCarousel" class="carousel slide" data-ride='carousel'>
+    <div id="projectCarousel" class="carousel slide" data-ride='carousel' data-interval="false">
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#projectCarousel" data-slide-to="1"></li>
+            <li data-target="#projectCarousel" data-slide-to="2"></li>
         </ol>
         <!-- Carousel images -->
         <div class="carousel-inner">
@@ -13,13 +13,15 @@
             <div class="item"><img class="cimg" id="featuredImg3"></div>
         </div>
         <!-- Carousel navigation -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        <a class=" carousel-control left glyphicon glyphicon-chevron-left" href="#projectCarousel" data-slide="prev"></a>
+        <a class="carousel-control right glyphicon glyphicon-chevron-right" href="#projectCarousel" data-slide="next"></a>
     </div>
-
-    <h2 id="featuredTitle"></h2>
-    <p id="featuredDesc"></p>
+    <div id=featuredDetails>
+        <span class="col-md-4"><h2 id="featuredTitle" ></h2></span>
+        <span class="col-md-8"><p id="featuredDesc" ></p>
     <p><a id="featuredLink" target="_blank">View Here</a></p>
+</span>
+    </div>
 </div>
 
 <div id="galleryset">
@@ -44,7 +46,7 @@
         </a>
         <a href="playground.html">
             <div class="col-md-4 item selected" id=playground>
-                <h2>Other Work</h2>
+                <h2>Playground</h2>
                 <img src="assets/image/playground.png">
             </div>
         </a>
