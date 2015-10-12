@@ -16,8 +16,12 @@
         margin: auto;
     }
     .galleryholder {
+        margin: auto;
+        overflow: hidden;
         .item {
             position: relative;
+            //max-width: 609px;
+            margin: auto;
             &.selected {
                 img {
                     opacity: .8;
@@ -30,6 +34,7 @@
                 position: fixed;
                 opacity: .3;
                 position: absolute;
+                width: 100%;
                 bottom: 0;
                 left: 0;
                 z-index: 0;
