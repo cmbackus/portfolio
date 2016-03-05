@@ -46,11 +46,6 @@
        left: 0;
    }
    
-   header img {
-       height: 50px;
-       padding: 10px 30px;
-   }
-   
    header .navigation {
        position: fixed;
        top: 0;
@@ -90,20 +85,4 @@
    section {
        width: 100%;
        overflow: hidden;
-   }
-   
-   .about {
-       padding-top: 10%;
-       min-height: 80%;
-       min-width: 300px;
-       #profile {
-           width: 100%;
-           border-radius: 1%;
-       }
-       .social {
-           img {
-               min-width: 40px;
-               padding: 5px;
-           }
-       }
    }
