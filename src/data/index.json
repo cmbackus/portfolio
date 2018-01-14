@@ -1,4 +1,70 @@
 {
+  "projects":{
+    "sito":{
+      "title":"SITO",
+      "desc":"Sito is an organization composed of R.I.T. which makes software for students, by students. The Sito website is intended as an overview for students, potential clients, and the public, to view what the Student IT Office is and what we are working on. I was responsible for the design and development of the Sito homepage.",
+      "img":"assets/image/sitoheader.png",
+      "alt":"Image of sito website header",
+      "links":[
+        {
+          "img":"assets/image/sito_logo.png",
+          "alt":"Sito Logo",
+          "text":"SITO Live",
+          "link":"http://rit.edu/its/sito"
+        },
+        {
+          "img":"assets/image/TC_logo.png",
+          "alt":"Tiger Center Logo",
+          "text":"Tiger Center",
+          "link":"https://tigercenter.rit.edu/tigerCenterSearch/#/search"
+        },
+        {
+          "img":"assets/image/circle-right.svg",
+          "alt":"Arrow Icon",
+          "text":"Sito Socials",
+          "link":"http://facebook.com/studentitoffice"
+        }
+      ],
+      "supplementary":{
+        "title":"Tiger Center",
+        "desc":"Tiger Center is an alternative enrollment tool for RIT students to find and enroll in classes. I contribute to the front end of the site, including the new logo for Tiger Center.",
+        "img":"assets/image/tigercenter.png",
+        "alt":"Tiger center web interface on a computer display, sitting in an office"
+      }
+    },
+    "snowday":{
+      "title":"Sapient Snowday",
+      "desc":"Snowday is a VR game made for the browser using an engine built by Kyle Larson and I while working at SapientNitro. The game places the user in a winter wonderland, where they must take down arctic enemies with snowballs in order to stay alive. My personal role in the snowday game was largely development of scripts used in the level, including things like score tracking, death animations, interface and logic for tracking and indicating where the closest enemy is - among other features. Coming from a web background, this was truly a learning experience in terms of working in 3-d, and built nicely off of my past experience with building web experiences in html5 canvas.",
+      "img":"assets/image/sitoheader.png",
+      "alt":"Screenshot of snowday vr experience",
+      "links":[
+        {
+          "img":"assets/image/circle-right.svg",
+          "alt":"Sito Logo",
+          "text":"Snowday Live",
+          "link":""
+        },
+        {
+          "img":"assets/image/circle-right.svg",
+          "alt":"SVG Arrow",
+          "text":"Opensource code coming soon",
+          "link":""
+        },
+        {
+          "img":"assets/image/circle-right.svg",
+          "alt":"Arrow Icon",
+          "text":"Nitrojs Documentation coming soon",
+          "link":""
+        }
+      ],
+      "supplementary":{
+        "title":"Nitrojs",
+        "desc":"The engine was built atop three.js and webvr pollyfill. It includes features including asset parsing, level and script authoring capabilities, and an update loop cable of handling 3-d models, positioning, and target hitting calculations. Main architecture credit goes to Kyle Larson, While I personally contributed to many aspects of the engine under his direction. The goal of this project was to make an engine that was powerful enough to handle our Snowday experience, yet flexible enough that it could be used to author other various web experiences to fit the needs of clients of SapientNitro. Our goal is to opensource this first within the agency, and then from there expand to be truly opensource.",
+        "img":"assets/image/tigercenter.png",
+        "alt":"nitrojs logo"
+      }
+    }
+},
     "playground":[
     {
         "title": "Glimmer",

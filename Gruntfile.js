@@ -10,8 +10,8 @@ module.exports = function (grunt) {
             },
             pages: {
                 options: {
-                    partials: ['src/pages/partials/**/*.hbs'],
-                    data: ['src/data/index.json']
+                    partials: ['src/pages/partials/*.hbs'],
+                    data: ['src/data/*.json']
                 },
                 files: {
                     'web/': ['src/pages/*.hbs']
