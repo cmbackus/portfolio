@@ -1,4 +1,4 @@
---- title: Facet ---
+--- title: Project ---
 <div class="col-md-12 visual">
     <image src={{img}} alt={{alt}}></image>
 </div>
@@ -6,7 +6,7 @@
 
     <div class="facet">
         <h2>{{title}}</h2>
-        <p>{{desc}}</p>
+        <p>{{{desc}}}</p>
     </div>
 
 </section>
@@ -14,19 +14,19 @@
     <div class="inner">
       {{#each links}}
         <div class=col-md-4>
-            <a href={{link}} target="_blank"><img src={{img}} alt={{alt}}>
-                <h3>{{text}}</h3></a>
+            <a class="innerLink" href={{link}} target="_blank"><img src={{img}} alt={{alt}}>
+                <h3>{{{text}}}</h3></a>
         </div>
         {{/each}}
     </div>
 </section>
-<div class="media col-md-6">
-    <img src={{supplementary.img}} alt={{supplementary.img}}>
+<div class="mediaCol col-md-6">
+    <img src={{supplementary.img}} alt={{supplementary.img}} class="projectImg">
 
 </div>
-<div class="facet col-md-6">
+<div class="facet col-md-6 contentCol">
     <h2>{{supplementary.title}}</h2>
-    <p>{{supplementary.desc}}
+    <p>{{{supplementary.desc}}}</p>
 </div>
 <section id="work" class="other">
     {{>_footer}}

@@ -34,34 +34,54 @@
     },
     "snowday":{
       "title":"Sapient Snowday",
-      "desc":"Snowday is a VR game made for the browser using an engine built by Kyle Larson and I while working at SapientNitro. The game places the user in a winter wonderland, where they must take down arctic enemies with snowballs in order to stay alive. My personal role in the snowday game was largely development of scripts used in the level, including things like score tracking, death animations, interface and logic for tracking and indicating where the closest enemy is - among other features. Coming from a web background, this was truly a learning experience in terms of working in 3-d, and built nicely off of my past experience with building web experiences in html5 canvas.",
-      "img":"assets/image/sitoheader.png",
+      "desc":"Snowday is a VR game made for the browser using an engine built by Kyle Larson and I while working at SapientNitro. The game places the user in a winter wonderland, where they must take down arctic enemies with snowballs in order to stay alive. My personal role in the snowday game was largely development of scripts used in the level, including things like score tracking, death animations, interface and logic for tracking and indicating where the closest enemy is - among other features.<br/><br/> Coming from a web background, this was truly a learning experience in terms of working in 3-d, and built nicely off of my past experience with building web experiences in html5 canvas.",
+      "img":"assets/image/snowday.png",
       "alt":"Screenshot of snowday vr experience",
       "links":[
         {
           "img":"assets/image/circle-right.svg",
-          "alt":"Sito Logo",
-          "text":"Snowday Live",
-          "link":""
-        },
-        {
-          "img":"assets/image/circle-right.svg",
-          "alt":"SVG Arrow",
-          "text":"Opensource code coming soon",
-          "link":""
-        },
-        {
-          "img":"assets/image/circle-right.svg",
           "alt":"Arrow Icon",
-          "text":"Nitrojs Documentation coming soon",
-          "link":""
+          "text":"Play Snowday",
+          "link":"http://138.197.13.13/"
         }
       ],
       "supplementary":{
         "title":"Nitrojs",
-        "desc":"The engine was built atop three.js and webvr pollyfill. It includes features including asset parsing, level and script authoring capabilities, and an update loop cable of handling 3-d models, positioning, and target hitting calculations. Main architecture credit goes to Kyle Larson, While I personally contributed to many aspects of the engine under his direction. The goal of this project was to make an engine that was powerful enough to handle our Snowday experience, yet flexible enough that it could be used to author other various web experiences to fit the needs of clients of SapientNitro. Our goal is to opensource this first within the agency, and then from there expand to be truly opensource.",
-        "img":"assets/image/tigercenter.png",
+        "desc":"The engine was built atop three.js and webvr pollyfill. It includes features including asset parsing, level and script authoring capabilities, and an update loop cable of handling 3-d models, positioning, and target hitting calculations. Main architecture credit goes to Kyle Larson, While I personally contributed to many aspects of the engine under his direction. <br/><br/>The goal of this project was to make an engine that was powerful enough to handle our Snowday experience, yet flexible enough that it could be used to author other various web experiences to fit the needs of clients of SapientNitro. Our goal is to opensource this first within the agency, and then from there expand to be truly opensource.",
+        "img":"assets/image/snowday_two.png",
         "alt":"nitrojs logo"
+      }
+    },
+    "transrocspeaks":{
+      "title":"Trans Rochester Speaks",
+      "desc":"Trans Rochester Speaks is a site which brings digital form to Benjamin Eshlemen's work showcasing the oral histories of trans people in Rochester, New York.  It showcases stories of individuals talking about their lives, speaking on topics relative to the community, it also has a timeline of trans history and a glossary of relevant terms. <br/><br/>This was a multidisciplanary team consisting of a designer, developer, digital historian, and photographer. The target audience for this project was tablet users at the ImagineRIT festival, highlighting Ben's work and the digital humanities department.",
+      "img":"assets/image/trans_roc.png",
+      "alt":"Screenshot of snowday vr experience",
+      "links":[
+        {
+          "img":"assets/image/circle-right.svg",
+          "alt":"Arrow Icon",
+          "text":"Live Site",
+          "link":"http://www.rit.edu/cla/transrochesterspeaks/"
+        },
+        {
+          "img":"assets/image/github2.svg",
+          "alt":"Arrow Icon",
+          "text":"View the Code",
+          "link":"https://github.com/cmbackus/trans-oral-history"
+        },
+        {
+          "img":"assets/image/circle-right.svg",
+          "alt":"SVG Arrow",
+          "text":"Digital Humanities at RIT",
+          "link":"https://www.rit.edu/cla/dhss/projects%23node-330#node-330"
+        }
+      ],
+      "supplementary":{
+        "title":"Dynamic Site Architecture",
+        "desc":"The website was developed using handlebars.js to handle the data heavy site. This allowed the flexibility to rearrange content and update copy as the site was developed while content was still being finalized. The single page setup of this content heavy site would lend itself quite easily to an update into reactjs. <br/><br/>Lessons learned include: Handling page load for audio and large image files, and a need for improved responsive design on mobile, due to the short timeline of the project and a unique target audience of tablet users for the festival itself.",
+        "img":"assets/image/trans_roc_secondary.png",
+        "alt":"soundcloud imbed on trans rochester speaks site"
       }
     }
 },

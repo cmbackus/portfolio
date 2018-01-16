@@ -15,6 +15,14 @@
     max-height: 50%;
 }
 
+.mediaCol.col-md-6 {
+  padding:0;
+}
+
+.contentCol.col-md-6{
+  padding: 20px 50px;
+}
+
 .iholder {
     background-color: #ededed;
     min-height: 250px;
@@ -29,6 +37,9 @@
     height: auto;
     text-align: center;
     padding: 20px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .outward .inner div {
@@ -36,9 +47,13 @@
 }
 
 .outward .inner div img {
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 10px;
+}
+
+.innerLink:hover, .innerLink:focus {
+    text-decoration: none;
 }
 
 .visual {
@@ -50,31 +65,21 @@
     }
 }
 
-.col-md-4 {
-    padding: 10%;
+#work .col-md-4 {
+    padding: 5% 20px;
 }
 
 .facet {
     h2 {
-        padding-top: 40px;
+        padding-top: 10px;
     }
     p {
-        padding: 20px;
+        padding: 20px 0;
     }
 }
 
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-}
+.projectImg {
+  width:100%;
+  height:auto;
 
-.videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
