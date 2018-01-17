@@ -2,7 +2,7 @@
   "projects":{
     "sito":{
       "title":"SITO",
-      "short":"A web organization by students for students",
+      "short":"A web organization which makes an alternative user friendly web app for enrollment at Rochester Institute of Technology.",
       "desc":"Sito is an organization composed of R.I.T. which makes software for students, by students. The Sito website is intended as an overview for students, potential clients, and the public, to view what the Student IT Office is and what we are working on. I was responsible for the design and development of the Sito homepage.",
       "img":"assets/image/sitoheader.png",
       "alt":"Image of sito website header",
@@ -35,7 +35,7 @@
     },
     "snowday":{
       "title":"Sapient Snowday",
-      "short":"A virtual reality snowball fight in your browser",
+      "short":"A virtual reality snowball fight in your browser. Grab a phone, mouse or google cardboard - this game build off of a flexible vr engine built off of threejs is worth a play.",
       "desc":"Snowday is a VR game made for the browser using an engine built by Kyle Larson and I while working at SapientNitro. The game places the user in a winter wonderland, where they must take down arctic enemies with snowballs in order to stay alive. My personal role in the snowday game was largely development of scripts used in the level, including things like score tracking, death animations, interface and logic for tracking and indicating where the closest enemy is - among other features.<br/><br/> Coming from a web background, this was truly a learning experience in terms of working in 3-d, and built nicely off of my past experience with building web experiences in html5 canvas.",
       "img":"assets/image/snowday.png",
       "alt":"Screenshot of snowday vr experience",
@@ -56,7 +56,7 @@
     },
     "transrocspeaks":{
       "title":"Trans Rochester Speaks",
-      "short":"A digital exhibit on the history of trans people in Rochester, NY",
+      "short":"A digital exhibit on the history of trans people in Rochester, NY. Oral histories, photography, and resources for the trans community and allies are showcased within this webapp built in sass and handlebars.",
       "desc":"Trans Rochester Speaks is a site which brings digital form to Benjamin Eshlemen's work showcasing the oral histories of trans people in Rochester, New York.  It showcases stories of individuals talking about their lives, speaking on topics relative to the community, it also has a timeline of trans history and a glossary of relevant terms. <br/><br/>This was a multidisciplanary team consisting of a designer, developer, digital historian, and photographer. The target audience for this project was tablet users at the ImagineRIT festival, highlighting Ben's work and the digital humanities department.",
       "img":"assets/image/trans_roc.jpg",
       "alt":"Screenshot of snowday vr experience",
