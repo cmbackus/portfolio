@@ -6,12 +6,13 @@
       "desc":"Samsung Knox was a unique project in that it targeted two completely different audiences on one url. I was able to act as lead developer on the project, establishing architecture for the page, implementing pixel perfect styles which are fully responsive, and making all interactive elements on the page from scratch.",
       "img":"assets/image/gold.jpg",
       "alt":"Image of samsung knox webpage",
+      "live":"http://www.godiva.com/gold-discovery",
       "links":[
         {
           "img":"assets/image/circle-right.svg",
           "alt":"Arrow Icon",
           "text":"View it Live",
-          "link":"https://www.samsung.com/us/business/solutions/samsung-knox/"
+          "link":"http://www.godiva.com/gold-discovery"
         }
       ],
       "supplementary":{
@@ -27,6 +28,7 @@
       "desc":"Samsung Knox was a unique project in that it targeted two completely different audiences on one url. I was able to act as lead developer on the project, establishing architecture for the page, implementing pixel perfect styles which are fully responsive, and making all interactive elements on the page from scratch.",
       "img":"assets/image/samsung.jpg",
       "alt":"Image of samsung knox webpage",
+      "live":"https://www.samsung.com/us/business/solutions/samsung-knox/",
       "links":[
         {
           "img":"assets/image/circle-right.svg",
@@ -48,6 +50,7 @@
       "desc":"Snowday is a VR game made for the browser using an engine built by Kyle Larson and I while working at SapientNitro. The game places the user in a winter wonderland, where they must take down arctic enemies with snowballs in order to stay alive. My personal role in the snowday game was largely development of scripts used in the level, including things like score tracking, death animations, interface and logic for tracking and indicating where the closest enemy is - among other features.<br/><br/> Coming from a web background, this was truly a learning experience in terms of working in 3-d, and built nicely off of my past experience with building web experiences in html5 canvas.",
       "img":"assets/image/snowday.png",
       "alt":"Screenshot of snowday vr experience",
+      "live":"http://138.197.13.13/",
       "links":[
         {
           "img":"assets/image/circle-right.svg",
@@ -69,6 +72,7 @@
       "desc":"Trans Rochester Speaks is a site which brings digital form to Benjamin Eshlemen's work showcasing the oral histories of trans people in Rochester, New York.  It showcases stories of individuals talking about their lives, speaking on topics relative to the community, it also has a timeline of trans history and a glossary of relevant terms. <br/><br/>This was a multidisciplanary team consisting of a designer, developer, digital historian, and photographer. The target audience for this project was tablet users at the ImagineRIT festival, highlighting Ben's work and the digital humanities department.",
       "img":"assets/image/trans_roc.jpg",
       "alt":"Screenshot of snowday vr experience",
+      "live":"http://www.rit.edu/cla/transrochesterspeaks/",
       "links":[
         {
           "img":"assets/image/circle-right.svg",
