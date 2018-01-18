@@ -164,21 +164,23 @@ section, .section {
       text-decoration: none;
     }
     p{
-      display:none;
+      // display:none;
       opacity:0;
+      width:0;
     }
     &:hover{
       width:70%;
       height:70%;
       transition:width .8s, height .8s;
       p{
-        display:block;
+        // display:block;
         padding-left: 35px;
         color: white;
         font-size: 20px;
         width: 55%;
         opacity:1;
-        transition:opacity 2s;
+        transition:opacity 0.5s;
+        transition-delay:0.6s;
       }
     }
     &:focus{
@@ -194,10 +196,17 @@ section, .section {
 
 }
 
-#sito .focal{
-  background-color:rgba(115, 190, 68, 0.7);
+#gold .focal{
+  background-color:rgba(207, 181, 106, 0.7);
 }
 
+#knox .focal{
+  background-color:rgba(20, 40, 160, 0.7);
+}
+
+#snowday .focal{
+  background-color:rgba(92, 22, 167, 0.7);
+}
 #introBox .focal{
   background-color:$cb-transparent;
 }
