@@ -104,18 +104,21 @@
   left:0;
   align-items:center;
   justify-content: center;
-  background-color:rgba(0,0,0,0.2);
+  background-color:rgba(0,0,0,0.4);
 
-  a h3{
+  a button{
+
     text-align: center;
     color: $light;
     font-weight: bold;
+    background-color: rgba(0,0,0,0.4);
+    border: 3px solid $light;
+    width:200px;
     &:hover{
-      text-decoration: none;
+      background-color: $light;
+      color:dark;
+      transition:all .5s;
     }
-  }
-  img{
-    width:150px;
   }
 
 }
