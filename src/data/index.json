@@ -3,9 +3,9 @@
     "gold":{
       "title":"Godiva Gold",
       "short":"A interactive hero module to help users explore the gold discovery collection",
-      "desc":"Samsung Knox was a unique project in that it targeted two completely different audiences on one url. I was able to act as lead developer on the project, establishing architecture for the page, implementing pixel perfect styles which are fully responsive, and making all interactive elements on the page from scratch.",
+      "desc":"The Godiva Gold hero features a chocolate box where the user can discover each unique chocolate in the collection. The experience opens with a shimmering box on display, activated by mouse movement or accelerometer on mobile. The box then opens, and clicking each piece reveals additional details and content. The project was done with javascript and css animations.",
       "img":"assets/image/gold.jpg",
-      "alt":"Image of samsung knox webpage",
+      "alt":"Image of godiva gold",
       "live":"http://www.godiva.com/gold-discovery",
       "links":[
         {
@@ -17,7 +17,7 @@
       ],
       "supplementary":{
         "title":"Interactive Elements",
-        "desc":"A main feature of the page was an interactive phone which expands to give the user more details about each layer in the security platform. This section was built entirely in css, with click events only setting which layer was active. Using sass, a dynamic system for structuring each layer to line up perfectly with the intro video was integral as the component was in development before we had the final creative to match it against.",
+        "desc":"Each chocolate is clickable to reveal a content box complete with movie player. In order to make this hero fully responsive, the position of pop-ups depends on screen width, and changes to a carousel on mobile. This project used scene7 image and video assets, and demandware for content management on the back-end.",
         "img":"assets/image/gold_two.jpg",
         "alt":"Tiger center web interface on a computer display, sitting in an office"
       }
@@ -50,13 +50,13 @@
       "desc":"Snowday is a VR game made for the browser using an engine built by Kyle Larson and I while working at SapientNitro. The game places the user in a winter wonderland, where they must take down arctic enemies with snowballs in order to stay alive. My personal role in the snowday game was largely development of scripts used in the level, including things like score tracking, death animations, interface and logic for tracking and indicating where the closest enemy is - among other features.<br/><br/> Coming from a web background, this was truly a learning experience in terms of working in 3-d, and built nicely off of my past experience with building web experiences in html5 canvas.",
       "img":"assets/image/snowday.png",
       "alt":"Screenshot of snowday vr experience",
-      "live":"http://138.197.13.13/",
+      "live":"http://vrcard.netlify.com",
       "links":[
         {
           "img":"assets/image/circle-right.svg",
           "alt":"Arrow Icon",
           "text":"Play Snowday",
-          "link":"http://138.197.13.13/"
+          "link":"http://vrcard.netlify.com"
         }
       ],
       "supplementary":{

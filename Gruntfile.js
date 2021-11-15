@@ -14,12 +14,14 @@ module.exports = function (grunt) {
                     data: ['src/data/*.json']
                 },
                 files: {
-                    'web/': ['src/pages/*.hbs']
+                    'web/': ['src/pages/*.hbs'],
+                    'docs/': ['src/pages/*.hbs']
                 }
             }
         },
         clean: {
-            all: ['web/*.html']
+            all: ['web/*.html', 'docs/*.html'],
+
         },
         sass: {
             dist: {
@@ -28,6 +30,7 @@ module.exports = function (grunt) {
                 },
                 files: {
                     './web/css/base.css': './src/styles/base.scss',
+                    './docs/css/base.css': './src/styles/base.scss',
                 }
             }
         },
