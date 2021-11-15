@@ -3,7 +3,6 @@ section, .section {
   padding:0;
 }
 #work {
-    background-color: $light;
     margin-top: 100%;
     padding:0;
     &.other {
@@ -109,7 +108,7 @@ section, .section {
     width: 100%;
     height: 100%;
     //background-color: #e7e7e7;
-    background-image: url("../assets/image/desktopsmol.jpg");
+    background-image: url("../assets/image/desk.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -194,20 +193,23 @@ section, .section {
 }
 
 #transroc .focal{
-  background-color:rgba(50, 0, 75, 0.7);
+  background-color:rgba(50, 0, 75, 0.9);
 
 }
 
-#gold .focal{
-  background-color:rgba(207, 181, 106, 0.7);
+#marcel .focal{
+  background-color:rgba(207, 181, 106, 0.9);
+  & p, h2 {
+    color:black;
+  }
 }
 
-#knox .focal{
-  background-color:rgba(20, 40, 160, 0.7);
+#encore .focal{
+  background-color:rgba(8,187,72, 0.9);
 }
 
 #snowday .focal{
-  background-color:rgba(20, 40, 160, 0.7);
+  background-color:rgba(20, 40, 160, 0.9);
 }
 #introBox .focal{
   background-color:$cb-transparent;

@@ -99,8 +99,41 @@
         "img":"assets/image/trans_roc_secondary.png",
         "alt":"soundcloud imbed on trans rochester speaks site"
       }
+    },
+    "marcel":{
+      "title":"Publicis Marcel",
+      "short":"Publicis Marcel is an internal tool for Publicis Groupe, harnessing their global workforce through the 'Power of One'. I had the pleasure of helping build Marcel's design system from the ground up, and helping it scale to accomodate 5+ feature teams around the globe.",
+      "desc":"The Marcel design system emerged at an interesting time on the project - while backend infrastructure and a mobile app already existed, the main interface previously had been voice, so in terms of UI we were starting from scratch. Sitting alongside designers, content creators, and backend devs, the biggest challenge became deducing what would stick around in the system vs what would be removed a few iterations later. What started as a scrappy team of 4 devs grew to 5+ web feature teams over the course of my time on the project.",
+      "img":"assets/image/trans_roc.jpg",
+      "alt":"Screenshot of snowday vr experience",
+      "live":"http://www.rit.edu/cla/transrochesterspeaks/",
+      "links":[
+        {
+          "img":"assets/image/circle-right.svg",
+          "alt":"Arrow Icon",
+          "text":"Live Site",
+          "link":"https://marcel.ai/"
+        }
+      ],
+      "supplementary":{
+        "title":"Dynamic Site Architecture",
+        "desc":"The website was developed using handlebars.js to handle the data heavy site. This allowed the flexibility to rearrange content and update copy as the site was developed while content was still being finalized. The single page setup of this content heavy site would lend itself quite easily to an update into reactjs. <br/><br/>Lessons learned include: Handling page load for audio and large image files, and a need for improved responsive design on mobile, due to the short timeline of the project and a unique target audience of tablet users for the festival itself.",
+        "img":"assets/image/trans_roc_secondary.png",
+        "alt":"soundcloud imbed on trans rochester speaks site"
+      }
+    },
+    "encore":{
+      "title":"Spotify Encore",
+      "short":"While on contract with the Encore Design Systems team at Spotify, I've been fortunate to participate in initiatives ranging from accessibility, to a typescale migration and forward compatibility. Featured here is my article on Customization vs Configuration in Design Systems",
+      "desc":"",
+      "img":"",
+      "alt":"imagery of encore logo",
+      "supplementary":{
+        "title":"Customization vs. Configuration",
+        "desc":"The website was developed using handlebars.js to handle the data heavy site. This allowed the flexibility to rearrange content and update copy as the site was developed while content was still being finalized. The single page setup of this content heavy site would lend itself quite easily to an update into reactjs. <br/><br/>Lessons learned include: Handling page load for audio and large image files, and a need for improved responsive design on mobile, due to the short timeline of the project and a unique target audience of tablet users for the festival itself.",
+        "img":"",
+        "alt":"soundcloud imbed on trans rochester speaks site"
+      }
     }
 }
-
-
 }

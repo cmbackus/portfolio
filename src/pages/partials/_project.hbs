@@ -1,16 +1,19 @@
 --- title: Project ---
 <div class="col-md-12 visual">
     <image src={{img}} alt={{alt}}/>
-    <div class="viewLink"><a href="{{live}}" target="_blank"><button class="btn btn-lg">View Live</button></a></div>
+    {{#if live}}
+      <div class="viewLink"><a href="{{live}}" target="_blank"><button class="btn btn-lg">View Live</button></a></div>
+    {{/if}}
 </div>
-<section class="description facet">
+<section class="description">
 
-    <div class="facet">
+    <div>
         <h2>{{title}}</h2>
         <p>{{{desc}}}</p>
     </div>
 
 </section>
+{{#if links}}
 <section class="outward facet">
     <div class="inner">
       {{#each links}}
@@ -21,6 +24,7 @@
         {{/each}}
     </div>
 </section>
+{{/if}}
 <div class="mediaCol col-md-6">
     <img src={{supplementary.img}} alt={{supplementary.img}} class="projectImg">
 
